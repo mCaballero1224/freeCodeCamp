@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=utf-8">
+        <title>freeCodeCamp Survey Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <section>
+                <p id="description">Thank you for taking the time to help us improve the platform</p>
+            </section>
+            <section>
+                <form id="survey-form" action="">
+                    <fieldset id="personal-info">
+                        <div>
+                        <label id="name-label" for="name"> Name</label>
+                        </div>
+                        <div>
+                        <input id="name" type="text" placeholder="John Doe" required>
+                        </div>
+                        <div>
+                        <label id="email-label" for="email"> Email</label>
+                        </div>
+                        <div>
+                        <input id="email" type="email" placeholder="john.doe@mail.com" required>
+                        </div>
+                        <div>
+                        <label id="number-label" for="number" placeholder="25"> Age <span class="label-subtext">(optional)</span></label>
+                        </div>
+                        <div>
+                        <input id="number" type="number" min="1" max="150" placeholder="25">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Which option best describes your current role?</legend>
+                        <select id="dropdown">
+                            <option value="" disabled selected hidden>Select current role</option>
+                            <option value="student">Student</option>
+                            <option value="ft-learner">Full-Time Job </option>
+                            <option value="pt-learner">Full-Time Learner </option>
+                            <option value="prefer-nts">Prefer not to say</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Would you reccomend freeCodeCamp to a friend?</legend>
+                        <div>
+                            <input id="definitely"
+                            type="radio"
+                            name="reccomend"
+                            value="definitely"> <label for="definitely"> Definitely</label>
+                        </div>
+                        <div>
+                            <input id="maybe"
+                            type="radio"
+                            name="reccomend"
+                            value="maybe"> <label for="maybe"> Maybe</label>
+                        </div>
+                        <div>
+                            <input id="not-sure"
+                            type="radio"
+                            name="reccomend"
+                            value="not-sure"> <label for="not-sure"> Not sure</label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div>
+                            <legend>What would you like to see improved?<span class="subtext"> (Check all that apply)</span></legend>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="fe-projects"><label id="front-end"> Front-end projects</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="be-projects"><label id="back-end"> Back-end projects</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="data-visualization"><label id="data-visiualization"> Data Visualization<projects</label>
+                        </div>
+                    </fieldset>
+                        <textarea 
+                            name="comments-and-suggestions"
+                            id="comments-and-suggestions"
+                            placeholder="Enter your comments here...">
+                        </textarea>
+                        <button id="submit" type="submit"><strong>Submit</strong></button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

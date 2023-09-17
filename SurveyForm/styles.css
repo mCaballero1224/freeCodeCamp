@@ -1,0 +1,50 @@
+body {
+    background-color: #004346;
+    color: white;
+    font-family: Didot;
+    font-size: 14px;
+}
+h1 {
+    text-align: center;
+    font-family: monospace;
+}
+
+.subtext {
+    font-size: 10px;
+}
+
+#description {
+    text-align: center;
+}
+
+form {
+    background-color: #BE8A60;
+    display: grid;
+    width: 50%;
+    margin: auto;
+}
+
+#personal-info input, #dropdown {
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+}
+
+textarea {
+    margin: 20px;
+    color: grey;
+}
+
+#submit {
+    margin: 20px;
+    height: 40px;
+    background-color: #004346;
+    border-color: #004346;
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: monospace;
+}
