@@ -1,8 +1,8 @@
-# CatPhotoApp 
+# RothkoPaintin 
 
-An html page made based on instructions provided at:
-https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-bui
-lding-a-cat-photo-app/step-1
+Rothko Painting - a css project made based on specifications given at:
+https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-the-css-box
+-model-by-building-a-rothko-painting/step-1
 
 ## Usage
 
