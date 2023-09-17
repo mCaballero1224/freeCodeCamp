@@ -33,18 +33,19 @@ fieldset {
 }
 
 textarea {
-    margin: 20px;
-    color: grey;
+    margin: 0px 20px 0px 20px;
+    height: 50px;
+    color: #004346;
 }
 
 #submit {
     margin: 20px;
     height: 40px;
     background-color: #004346;
+    color: white;
     border-color: #004346;
     border-radius: 2px;
-    color: white;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 30px;
     font-family: monospace;
 }
