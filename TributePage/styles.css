@@ -1,0 +1,76 @@
+body {
+    font-size: 20px;
+    background-color: #433E3F;
+    color: #F0E7D8;
+}
+
+a {
+    color: #80A4ED;
+}
+
+figcaption {
+    text-align: center;
+}
+
+#wiki {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+
+#image {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+.year {
+    font-weight: bold;
+}
+
+#title {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    font-size: 3rem;
+    padding: 0;
+}
+
+#sub-title {
+    font-size: .75em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#quote {
+    font-style: italic;
+    max-width: 55%;
+    min-width: 300px;
+    margin: auto;
+}
+
+figure {
+    background-color: #F0E7D8;
+    color: #433E3F;
+    font-size: 16px;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    display: block;
+}
+
+ul {
+    max-width: 55%;
+    min-width: 300px;
+    margin: auto;
+    list-style-type: none;
+}
+
+li {
+    padding: 10px 0;
+}
